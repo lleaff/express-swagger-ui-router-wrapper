@@ -12,10 +12,10 @@
   "files": [
     "dist/"
   ],
+  "repository": "https://github.com/lleaff/express-swagger-ui-router.git",
   "author": "lleaff <lleaff@outlook.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.3",
     "express-swagger-ui": "^0.1.0"
   },
   "peerDependencies": {
