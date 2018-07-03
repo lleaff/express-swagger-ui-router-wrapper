@@ -12,14 +12,13 @@ npm install --save express express-swagger-ui-router
 
 ```javascript
 import express from 'express';
+import path from 'path';
 import swaggerServer from 'express-swagger-ui-router';
 
 const app = express();
 
 app.use('/swagger',
-  swaggerServer({
-    configFile: resolve(__dirname, '..', 'openapi.json'),
-  }));
+  swaggerServer({ configFile: path.resolve(__dirname, 'openapi.json') }));
 
 app.listen(3000);
 ```
