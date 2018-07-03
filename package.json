@@ -1,6 +1,6 @@
 {
   "name": "express-swagger-ui-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mount swagger-ui as an express.js router with local config file.",
   "main": "dist/index.js",
   "scripts": {
