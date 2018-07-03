@@ -12,7 +12,7 @@ npm install --save express express-swagger-ui-router
 
 ```javascript
 import express from 'express';
-import swaggerServer from './express-swagger-ui-router';
+import swaggerServer from 'express-swagger-ui-router';
 
 const app = express();
 

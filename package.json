@@ -1,8 +1,9 @@
 {
   "name": "express-swagger-ui-router",
-  "version": "1.0.1",
+  "version": "1.4.0",
   "description": "Mount swagger-ui as an express.js router with local config file.",
-  "main": "dist/index.js",
+  "main": "dist/lib/index.js",
+  "typings": "dist/types/index.d.ts",
   "scripts": {
     "start": "npm run build -- --watch",
     "build": "tsc --module commonjs",
