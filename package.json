@@ -1,0 +1,25 @@
+{
+  "name": "express-swagger-ui-router",
+  "version": "1.0.0",
+  "description": "Mount swagger-ui as an express.js router.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build -- --watch",
+    "build": "tsc --module commonjs",
+    "prepublish": "npm run build"
+  },
+  "author": "lleaff <lleaff@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-swagger-ui": "^0.1.0"
+  },
+  "peerDependencies": {
+    "express": "*"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/node": "^10.5.1",
+    "typescript": "^2.9.2"
+  }
+}
